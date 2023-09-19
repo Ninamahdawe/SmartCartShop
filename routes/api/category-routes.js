@@ -17,12 +17,17 @@ router.get('/', async (req, res) => {
     res.status(500).json(err);
   }
 });
+
+// GET a category by ID
 router.get('/:id', async (req, res) => {
   try {
+
+    // Find a category by its primary key (ID) including associated products
     const categoryData = await Category.findByPk(req.params.id, {
       include: [{ model: Product }],
     });
 
+    // If no category is found with the given ID, return a 404 Not Found response
     if (!categoryData) {
       res.status(404).json({ message: 'No category found with that id!' });
       return;
@@ -33,9 +38,11 @@ router.get('/:id', async (req, res) => {
     res.status(500).json(err);
   }
 });
-
+// POST a new category
 router.post('/', async (req, res) => {
   try {
+
+    // Create a new category using the request body
     const newCategoryData = await Category.create(req.body);
     res.status(200).json(newCategoryData);
   } catch (err) {
