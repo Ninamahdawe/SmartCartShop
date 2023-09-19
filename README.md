@@ -37,3 +37,5 @@ SmartCartShop aims to provide developers with a fundamental understanding of e-c
 
 2. Install Dependencies
    npm install
+
+## Configuration
