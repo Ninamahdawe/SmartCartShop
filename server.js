@@ -7,6 +7,8 @@ const Sequelize = require('./config/connection');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+
+// Enable parsing of JSON data in incoming requests
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
