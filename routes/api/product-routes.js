@@ -16,9 +16,10 @@ router.get("/", async (req, res) => {
   }
 });
 
-
+// GET a product by ID
 router.get("/:id", async (req, res) => {
   try {
+    // Find a product by its primary key (ID) and include associated Category and Tag data
     const productData = await Product.findByPk(req.params.id, {
       include: [{ model: Category }, { model: Tag, through: ProductTag }],
     });
