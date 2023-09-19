@@ -30,3 +30,6 @@ SmartCartShop aims to provide developers with a fundamental understanding of e-c
 - RESTful API: Follows RESTful API principles, providing a standardized and predictable way to interact with the system, making integration with frontend applications and third-party services easier.
 
 ## Getting Started
+
+1. Clone the Repository
+   git@github.com:Ninamahdawe/SmartCartShop.git
