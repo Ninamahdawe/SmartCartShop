@@ -35,6 +35,7 @@ router.get("/:id", async (req, res) => {
   }
 });
 
+// POST a new product
 router.post("/", async (req, res) => {
   try {
     // Create a new product using 'Product.create()' method
@@ -58,7 +59,9 @@ router.post("/", async (req, res) => {
   }
 });
 
+// PUT (update) a product by ID
 router.put("/:id", async (req, res) => {
+  // Update a product with the given ID using the request body
   const product = await Product.update(req.body, {
     where: {
       id: req.params.id,
