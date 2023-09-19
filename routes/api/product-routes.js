@@ -81,6 +81,7 @@ router.put("/:id", async (req, res) => {
         };
       });
 
+    // Calculate product tags to remove
     const productTagsToRemove = productTags
       .filter(({ tag_id }) => !req.body.tagIds.includes(tag_id))
       .map(({ id }) => id);
