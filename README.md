@@ -39,3 +39,5 @@ SmartCartShop aims to provide developers with a fundamental understanding of e-c
    npm install
 
 ## Configuration
+
+To connect to the database and configure environment-specific settings, create a .env file in the project root directory and add the necessary variables.
