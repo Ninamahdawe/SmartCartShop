@@ -58,3 +58,5 @@ Initialize the database and create tables by running Sequelize migrations:
 Start the SmartCartShop backend server:
 
 - npm start
+
+## License
