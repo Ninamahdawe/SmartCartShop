@@ -13,6 +13,7 @@ router.get('/', async (req, res) => {
     });
     res.status(200).json(CategoryData);
   } catch (err) {
+    // Handle errors with a 500 Internal Server Error response
     res.status(500).json(err);
   }
 });
