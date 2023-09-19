@@ -6,8 +6,13 @@ Welcome to SmartCartShop! This project focuses on building the backend for an e-
 ## Table of Contents
 
 - [Introduction](#Introduction)
-- [Key Features](#keyfeatures)
-- [Getting Started](#getting-started)
 - [Technologies Used](#TechnologiesUsed)
+- [Getting Started](#getting-started)
 - [Configuration](#Configuration)
 - [License](#license) -[Running the Application](#RunningtheApplication)
+
+## Introduction
+
+SmartCartShop aims to provide developers with a fundamental understanding of e-commerce site architecture. We challenge you to build the backend for an e-commerce site using Express.js and Sequelize to interact with a MySQL database.
+
+## Technologies Used
