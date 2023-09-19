@@ -33,3 +33,7 @@ SmartCartShop aims to provide developers with a fundamental understanding of e-c
 
 1. Clone the Repository
    git@github.com:Ninamahdawe/SmartCartShop.git
+   cd cd smartcartshop.
+
+2. Install Dependencies
+   npm install
