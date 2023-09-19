@@ -73,3 +73,5 @@ SmartCartShop is licensed under the MIT License. You are free to use, modify, an
 https://github.com/Ninamahdawe
 
 ### Walk Through Video
+
+https://drive.google.com/file/d/1joMGl6sEHBaRNuEIskHpoZGsb8y3eTVv/view
