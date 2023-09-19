@@ -44,3 +44,17 @@ SmartCartShop aims to provide developers with a fundamental understanding of e-c
 To connect to the database and configure environment-specific settings, create a .env file in the project root directory and add the necessary variables.
 
 ## Database Setup
+
+SmartCartShop uses MySQL as its database. Ensure you have MySQL installed and running.
+
+Create a MySQL database for SmartCartShop.
+
+Update the .env file with your database credentials.
+
+Initialize the database and create tables by running Sequelize migrations:
+
+- npx sequelize-cli db:seed:all
+
+Start the SmartCartShop backend server:
+
+- npm start
