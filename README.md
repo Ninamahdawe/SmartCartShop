@@ -64,3 +64,6 @@ Start the SmartCartShop backend server:
 ## License
 
 SmartCartShop is licensed under the MIT License. You are free to use, modify, and distribute this project as per the terms of the license.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[License Details](https://opensource.org/licenses/MIT)
