@@ -28,3 +28,5 @@ SmartCartShop aims to provide developers with a fundamental understanding of e-c
 - Sequelize ORM: An Object-Relational Mapping (ORM) library for Node.js that simplifies database interactions.
 
 - RESTful API: Follows RESTful API principles, providing a standardized and predictable way to interact with the system, making integration with frontend applications and third-party services easier.
+
+## Getting Started
