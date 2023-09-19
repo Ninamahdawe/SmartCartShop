@@ -59,6 +59,8 @@ router.put('/:id', async (req, res) => {
         id: req.params.id,
       },
     });
+
+    // If no category was updated, return a 404 Not Found response
     if (!updatedCategoryData[0]) {
       res.status(404).json({ message: 'No updated category with this id!' });
       return;
@@ -72,6 +74,8 @@ router.put('/:id', async (req, res) => {
 // delete a category by its `id` value
 router.delete('/:id', async (req, res) => {
   try {
+
+    // Delete a category with the given ID
     const deleteCategory = await Category.destroy({
       where: { id: req.params.id }
     });
