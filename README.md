@@ -9,6 +9,7 @@ Welcome to SmartCartShop! This project focuses on building the backend for an e-
 - [Technologies Used](#TechnologiesUsed)
 - [Getting Started](#getting-started)
 - [Configuration](#Configuration)
+- [Database Setup](#DatabaseSetup)
 - [License](#license) -[Running the Application](#RunningtheApplication)
 
 ## Introduction
@@ -41,3 +42,5 @@ SmartCartShop aims to provide developers with a fundamental understanding of e-c
 ## Configuration
 
 To connect to the database and configure environment-specific settings, create a .env file in the project root directory and add the necessary variables.
+
+## Database Setup
